@@ -16,16 +16,16 @@
     "pixelsRounding": true,
     "projectUuid": "d94e66e6-836d-44c1-9d40-68ed90ac6634",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
-    "name": "Rythim Game Without Name",
+    "version": "0.1.1",
+    "name": "HarmonyPuppet",
     "description": "",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Jhonatan\\Documents\\GitHub\\HarmonyPuppet\\Build",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -50,8 +50,12 @@
       "placement": "bottom-left",
       "showWatermark": true
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "ZyaNo1QtzGVRIp95ZZdSPx4a1gI2"
+    ],
+    "authorUsernames": [
+      "_Jhondev"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
