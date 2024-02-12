@@ -473,6 +473,105 @@
         "name": "NewSprite20",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite24",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WinFrame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\WinFrame.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOverFrame.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOverFrame.jpeg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite25.png\"}",
+        "name": "NewSprite25",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default5",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -504,11 +603,24 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4851279127775585,
+        "zoomFactor": 0.5183968793425892,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "RandomSpawner",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "MatchStarted",
+          "type": "boolean",
+          "value": true
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -568,22 +680,6 @@
           "x": 930,
           "y": 0,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 266,
-          "layer": "",
-          "name": "Colision",
-          "persistentUuid": "929cd84e-10ab-493d-973a-f2076bcb3652",
-          "width": 585,
-          "x": 349,
-          "y": 719,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -665,27 +761,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "GUI",
-          "name": "GAMEOVER",
-          "persistentUuid": "c42d448e-3341-4f10-8092-decaf9459376",
-          "width": 0,
-          "x": 313,
-          "y": 192,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
           "layer": "GUI",
           "name": "HealthFrame",
           "persistentUuid": "3b93a54d-fbd9-4699-bf07-d7462a821a5b",
-          "width": 0,
+          "width": 240,
           "x": 78,
           "y": 28,
           "zOrder": 11,
@@ -761,8 +843,8 @@
           "name": "HealthBar",
           "persistentUuid": "7245106e-1768-4814-8153-401f5d105844",
           "width": 0,
-          "x": 78,
-          "y": 28,
+          "x": 100,
+          "y": 35,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -782,6 +864,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 590,
+          "layer": "",
+          "name": "Colision",
+          "persistentUuid": "7c36cfd1-40b6-495b-8254-4fc7b886e674",
+          "width": 1276,
+          "x": 4,
+          "y": 723,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -794,13 +892,13 @@
           "variables": [
             {
               "folded": true,
-              "name": "SlimeBallDebouncing",
+              "name": "AerialSlashDebouncing",
               "type": "boolean",
               "value": false
             },
             {
               "folded": true,
-              "name": "AerialSlashDebouncing",
+              "name": "SlimeBallDebouncing",
               "type": "boolean",
               "value": false
             },
@@ -1182,12 +1280,25 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "AerialSlash",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Damage",
+              "type": "number",
+              "value": 49
+            },
+            {
+              "folded": true,
+              "name": "EnergyCost",
+              "type": "number",
+              "value": 25
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -1202,18 +1313,18 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite10",
+                      "image": "NewSprite23",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 69.5,
+                        "y": 75.5
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 63,
+                        "y": 70
                       },
                       "customCollisionMask": [
                         [
@@ -1248,7 +1359,20 @@
           "name": "SlimeBall",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Damage",
+              "type": "number",
+              "value": 49
+            },
+            {
+              "folded": true,
+              "name": "EnergyCost",
+              "type": "number",
+              "value": 25
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -1309,12 +1433,25 @@
           "name": "BabySlime",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Damage",
+              "type": "number",
+              "value": 49
+            },
+            {
+              "folded": true,
+              "name": "EnergyCost",
+              "type": "number",
+              "value": 25
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "Default",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1723,7 +1860,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "GAMEOVER",
+          "name": "GameOverFrame",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1731,7 +1868,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "Default",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1741,7 +1878,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite14",
+                      "image": "assets\\GameOverFrame.jpeg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1761,16 +1898,16 @@
                             "y": 0
                           },
                           {
-                            "x": 700,
+                            "x": 318,
                             "y": 0
                           },
                           {
-                            "x": 700,
-                            "y": 350
+                            "x": 318,
+                            "y": 159
                           },
                           {
                             "x": 0,
-                            "y": 350
+                            "y": 159
                           }
                         ]
                       ]
@@ -1802,7 +1939,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Default",
+                      "image": "Default3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2017,9 +2154,9 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 100,
+              "Health": 480,
               "CurrentHealth": 0,
-              "MaxHealth": 100,
+              "MaxHealth": 480,
               "DamageCooldown": 0,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0,
@@ -2107,9 +2244,9 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 100,
+              "Health": 196,
               "CurrentHealth": 0,
-              "MaxHealth": 100,
+              "MaxHealth": 196,
               "DamageCooldown": 0,
               "IsHealthJustDamaged": false,
               "HealthRegenRate": 0,
@@ -2145,7 +2282,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite20",
+                      "image": "Default2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2161,20 +2298,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 22,
-                            "y": 7
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 218,
-                            "y": 7
+                            "x": 196,
+                            "y": 0
                           },
                           {
-                            "x": 218,
-                            "y": 25
+                            "x": 196,
+                            "y": 18
                           },
                           {
-                            "x": 22,
-                            "y": 25
+                            "x": 0,
+                            "y": 18
                           }
                         ]
                       ]
@@ -2225,6 +2362,145 @@
             "characterSize": 25,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "WinFrame",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\WinFrame.png",
+                      "points": [
+                        {
+                          "name": "Button",
+                          "x": 384,
+                          "y": 387.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "TryAgainButton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Default5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 800,
+                            "y": 0
+                          },
+                          {
+                            "x": 800,
+                            "y": 150
+                          },
+                          {
+                            "x": 0,
+                            "y": 150
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2254,6 +2530,18 @@
           {
             "folderName": "GUI",
             "children": [
+              {
+                "objectName": "WinFrame"
+              },
+              {
+                "objectName": "TryAgainButton"
+              },
+              {
+                "objectName": "PlayerIcon"
+              },
+              {
+                "objectName": "GameOverFrame"
+              },
               {
                 "objectName": "HealthBar"
               },
@@ -2288,12 +2576,6 @@
                 "objectName": "BottomArrowRoundButton"
               }
             ]
-          },
-          {
-            "objectName": "GAMEOVER"
-          },
-          {
-            "objectName": "PlayerIcon"
           }
         ]
       },
@@ -2334,7 +2616,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "GAMEOVER"
+                    "GameOverFrame"
                   ]
                 }
               ]
@@ -2347,7 +2629,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "GameHandler",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2357,24 +2638,60 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SceneInstancesCount"
+                    "value": "Health::Health::Health"
                   },
                   "parameters": [
-                    "",
-                    "Player",
+                    "HealthBar",
+                    "Health",
                     "=",
-                    "0"
+                    "0",
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Montre"
+                    "value": "Create"
                   },
                   "parameters": [
-                    "GAMEOVER",
-                    ""
+                    "",
+                    "GameOverFrame",
+                    "0",
+                    "0",
+                    "\"GUI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "GameOverFrame",
+                    "=",
+                    "1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "GameOverFrame",
+                    "Resizable",
+                    "=",
+                    "1280"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "GameOverFrame",
+                    "Resizable",
+                    "=",
+                    "720"
                   ]
                 },
                 {
@@ -2391,6 +2708,181 @@
                   },
                   "parameters": [
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MatchStarted",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "EnergyBar",
+                    "Health",
+                    "<=",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "WinFrame",
+                    "0",
+                    "0",
+                    "\"GUI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "TryAgainButton",
+                    "WinFrame.PointX(\"Button\")",
+                    "WinFrame.PointY(\"Button\")",
+                    "\"GUI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "WinFrame",
+                    "=",
+                    "1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "TryAgainButton",
+                    "=",
+                    "1002"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "WinFrame",
+                    "Resizable",
+                    "=",
+                    "1280"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "WinFrame",
+                    "Resizable",
+                    "=",
+                    "720"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MatchStarted",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "TryAgainButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TryAgainButton",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "WinFrame",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetHealth"
+                  },
+                  "parameters": [
+                    "HealthBar",
+                    "Health",
+                    "HealthBar.Health::MaxHealth()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::SetHealth"
+                  },
+                  "parameters": [
+                    "EnergyBar",
+                    "Health",
+                    "EnergyBar.Health::MaxHealth()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MatchStarted",
+                    "True"
                   ]
                 }
               ]
@@ -2452,23 +2944,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Status",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
+              "folded": true,
               "name": "PC | Mechanics",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3734,6 +4210,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "BossController",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3743,488 +4220,1098 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DepartScene"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "AerialSlash",
-                    "520",
-                    "164",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "AerialSlash",
-                    "0",
-                    "200",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "AerialSlash",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "AerialSlash",
-                        "Player",
-                        "",
-                        "",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Plan"
-                      },
-                      "parameters": [
-                        "Player",
-                        ">=",
-                        "AerialSlash.ZOrder()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Health::Health::SetHealth"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "Health",
-                    "HealthBar.Health::Health() - 25",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "AerialSlash",
-                    "Colision",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "AerialSlash",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "SceneInstancesCount"
-                      },
-                      "parameters": [
-                        "AerialSlash",
-                        "AerialSlash",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Boss",
-                        "SlimeBallDebouncing",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "SlimeBallDebouncing",
+                    "MatchStarted",
                     "True"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "SlimeBall",
-                    "612",
-                    "199",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "SlimeBall",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "SlimeBall",
-                    "0",
-                    "200",
-                    "1"
-                  ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              ],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "SkillHandler",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
                     {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "SlimeBall",
-                        "Player",
-                        "",
-                        "",
-                        "yes"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DepartScene"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "RandomSpawner",
+                            "=",
+                            "RandomInRange(1, 3)"
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "Plan"
-                      },
-                      "parameters": [
-                        "Player",
-                        "<=",
-                        "SlimeBall.ZOrder()"
-                      ]
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "AerialSlash",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Instanciate the AerialSlash skill."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "VarScene"
+                                  },
+                                  "parameters": [
+                                    "RandomSpawner",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Boss",
+                                    "AerialSlashDebouncing",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Boss",
+                                "AerialSlashDebouncing",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "AerialSlash",
+                                "Player.CenterX()",
+                                "164",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AddForceXY"
+                              },
+                              "parameters": [
+                                "AerialSlash",
+                                "0",
+                                "320",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "AerialSlash",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Kills the object."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "AerialSlash",
+                                "Colision",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "RandomSpawner",
+                                "=",
+                                "RandomInRange(1, 3)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "AerialSlash",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Boss",
+                                "AerialSlashDebouncing",
+                                "False"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "SlimeBall",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Instanciate the SlimeBall skill."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "VarScene"
+                                  },
+                                  "parameters": [
+                                    "RandomSpawner",
+                                    "=",
+                                    "2"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Boss",
+                                    "SlimeBallDebouncing",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Boss",
+                                "SlimeBallDebouncing",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "SlimeBall",
+                                "Player.X()",
+                                "199",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "SlimeBall",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AddForceXY"
+                              },
+                              "parameters": [
+                                "SlimeBall",
+                                "0",
+                                "300",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Kills the object."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "SlimeBall",
+                                "Colision",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "RandomSpawner",
+                                "=",
+                                "RandomInRange(1, 3)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "SlimeBall",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Boss",
+                                "SlimeBallDebouncing",
+                                "False"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "BabySlime",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Instanciate the BabySlime skill."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "VarScene"
+                                  },
+                                  "parameters": [
+                                    "RandomSpawner",
+                                    "=",
+                                    "3"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Boss",
+                                    "BabySlimeDebouncing",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Boss",
+                                "BabySlimeDebouncing",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "BabySlime",
+                                "Player.X()",
+                                "199",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "BabySlime",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AddForceXY"
+                              },
+                              "parameters": [
+                                "BabySlime",
+                                "0",
+                                "270",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Kills the object."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "BabySlime",
+                                    "Player",
+                                    "",
+                                    "",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "AttackDebouncing",
+                                    "True"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "EnergyBar",
+                                "Health",
+                                "BabySlime.Variable(EnergyCost)",
+                                "no",
+                                "no",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "EnergyBar",
+                                "Resizable",
+                                "=",
+                                "clamp(EnergyBar.Health::Health()/ EnergyBar.Health::MaxHealth()  * EnergyBar.Health::MaxHealth(), 0, EnergyBar.Health::MaxHealth())"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "RandomSpawner",
+                                "=",
+                                "RandomInRange(1, 3)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "BabySlime",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Boss",
+                                "BabySlimeDebouncing",
+                                "False"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "BabySlime",
+                                "Colision",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "RandomSpawner",
+                                "=",
+                                "RandomInRange(1, 3)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "BabySlime",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Boss",
+                                "BabySlimeDebouncing",
+                                "False"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
                     }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Health::Health::SetHealth"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "Health",
-                    "HealthBar.Health::Health() - 25",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "SlimeBall",
-                    "Colision",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "SlimeBall",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "SceneInstancesCount"
-                      },
-                      "parameters": [
-                        "AerialSlash",
-                        "SlimeBall",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Boss",
-                        "SlimeBallDebouncing",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Boss",
-                        "BabySlimeDebouncing",
-                        "False"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "BabySlimeDebouncing",
-                    "True"
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "BabySlime",
-                    "612",
-                    "199",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "BabySlime",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "BabySlime",
-                    "0",
-                    "200",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "BabySlime",
-                    "Colision",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BabySlime",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "SkillBehavior",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
                     {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "BabySlime",
-                        "Player",
-                        "",
-                        "",
-                        "yes"
-                      ]
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "folded": true,
+                      "name": "AerialSlash",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Changes the boss energy bar."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SceneInstancesCount"
+                              },
+                              "parameters": [
+                                "",
+                                "AerialSlash",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "EnergyBar",
+                                "Health",
+                                "AerialSlash.Variable(EnergyCost)",
+                                "no",
+                                "no",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "EnergyBar",
+                                "Resizable",
+                                "=",
+                                "clamp(EnergyBar.Health::Health()/ EnergyBar.Health::MaxHealth()  * EnergyBar.Health::MaxHealth(), 0, EnergyBar.Health::MaxHealth())"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Changes the player health bar."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "AerialSlash",
+                                    "Player",
+                                    "",
+                                    "",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Plan"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    ">=",
+                                    "AerialSlash.ZOrder()"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "HealthBar",
+                                "Health",
+                                "AerialSlash.Variable(Damage)",
+                                "no",
+                                "no",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "HealthBar",
+                                "Resizable",
+                                "=",
+                                "clamp(HealthBar.Health::Health()/ HealthBar.Health::MaxHealth()  * HealthBar.Health::MaxHealth(), 0, HealthBar.Health::MaxHealth())"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
                     },
                     {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Player",
-                        "AttackDebouncing",
-                        "True"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BabySlime",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "BabySlime",
-                        "Player",
-                        "",
-                        "",
-                        "yes"
-                      ]
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "folded": true,
+                      "name": "SlimeBall",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Changes the boss energy bar."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SceneInstancesCount"
+                              },
+                              "parameters": [
+                                "",
+                                "SlimeBall",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "EnergyBar",
+                                "Health",
+                                "SlimeBall.Variable(EnergyCost)",
+                                "no",
+                                "no",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "EnergyBar",
+                                "Resizable",
+                                "=",
+                                "clamp(EnergyBar.Health::Health()/ EnergyBar.Health::MaxHealth()  * EnergyBar.Health::MaxHealth(), 0, EnergyBar.Health::MaxHealth())"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Changes the player health bar."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "SlimeBall",
+                                    "Player",
+                                    "",
+                                    "",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Plan"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "<=",
+                                    "SlimeBall.ZOrder()"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "HealthBar",
+                                "Health",
+                                "SlimeBall.Variable(Damage)",
+                                "no",
+                                "no",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "HealthBar",
+                                "Resizable",
+                                "=",
+                                "clamp(HealthBar.Health::Health()/ HealthBar.Health::MaxHealth()  * HealthBar.Health::MaxHealth(), 0, HealthBar.Health::MaxHealth())"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
                     },
                     {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Player",
-                        "AttackDebouncing",
-                        "False"
-                      ]
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "folded": true,
+                      "name": "BabySlime",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Changes the boss energy bar."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SceneInstancesCount"
+                              },
+                              "parameters": [
+                                "",
+                                "BabySlime",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "EnergyBar",
+                                "Health",
+                                "BabySlime.Variable(EnergyCost)",
+                                "no",
+                                "no",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "EnergyBar",
+                                "Resizable",
+                                "=",
+                                "clamp(EnergyBar.Health::Health()/ EnergyBar.Health::MaxHealth()  * EnergyBar.Health::MaxHealth(), 0, EnergyBar.Health::MaxHealth())"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Changes the player health bar."
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "BabySlime",
+                                    "Player",
+                                    "",
+                                    "",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "AttackDebouncing",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "HealthBar",
+                                "Health",
+                                "BabySlime.Variable(Damage)",
+                                "no",
+                                "no",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                              },
+                              "parameters": [
+                                "HealthBar",
+                                "Resizable",
+                                "=",
+                                "clamp(HealthBar.Health::Health() / HealthBar.Health::MaxHealth()  * HealthBar.Health::MaxHealth(), 0, HealthBar.Health::MaxHealth())"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
                     }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Health::Health::SetHealth"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "Health",
-                    "HealthBar.Health::Health() - 25",
-                    ""
-                  ]
+                  ],
+                  "parameters": []
                 }
               ]
             }
