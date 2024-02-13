@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "0.1.1",
+    "version": "0.2.1",
     "name": "HarmonyPuppet",
     "description": "",
     "author": "",
@@ -36,8 +36,8 @@
       "backgroundImageResourceName": "",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
-      "logoAndProgressLogoFadeInDelay": 0.2,
-      "minDuration": 1.5,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 2,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
@@ -48,7 +48,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [
       "ZyaNo1QtzGVRIp95ZZdSPx4a1gI2"
@@ -603,7 +603,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5183968793425892,
+        "zoomFactor": 0.4391845872408309,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -693,7 +693,7 @@
           "persistentUuid": "db9ff00c-cb2d-4deb-b7d9-8a80e08eca0b",
           "width": 0,
           "x": 21,
-          "y": 622,
+          "y": 588,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -708,7 +708,7 @@
           "persistentUuid": "0c9e5878-473e-48c6-838b-45cd81a45a97",
           "width": 0,
           "x": 125,
-          "y": 622,
+          "y": 588,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -723,7 +723,7 @@
           "persistentUuid": "96483423-5e8c-42fc-8009-de4f38d98859",
           "width": 0,
           "x": 230,
-          "y": 622,
+          "y": 588,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -738,7 +738,7 @@
           "persistentUuid": "19ad0906-19e3-4bf7-bd06-37b330261043",
           "width": 0,
           "x": 125,
-          "y": 528,
+          "y": 494,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2900,776 +2900,195 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "PlayerPosition",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DepartScene"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "MettreXY"
-                      },
-                      "parameters": [
-                        "Player",
-                        "=",
-                        "612",
-                        "=",
-                        "570"
-                      ]
-                    }
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "MatchStarted",
+                    "True"
                   ]
                 }
               ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "PC | Mechanics",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
+              "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Verifies if the device isnt mobile"
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Status",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "MatchStarted",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                          },
+                          "parameters": [
+                            "HealthBar",
+                            "Resizable",
+                            "=",
+                            "clamp(HealthBar.Health::Health()/ HealthBar.Health::MaxHealth()  * HealthBar.Health::MaxHealth(), 0, HealthBar.Health::MaxHealth())"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "SystemInfo::HasTouchScreen"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "LeftArrowRoundButton2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "RightArrowRoundButton"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "AttackButton"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "TopArrowRoundButton"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "BottomArrowRoundButton"
-                      ]
-                    }
-                  ],
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "PlayerPosition",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Encantador",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "KeyReleased"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "a"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::And"
-                                  },
-                                  "parameters": [],
-                                  "subInstructions": [
-                                    {
-                                      "type": {
-                                        "value": "PosX"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "<=",
-                                        "837"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "PosX"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        ">",
-                                        "387"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "AttackDebouncing",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "SlideDebouncing",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "JumpDebouncing",
-                                        ""
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "MettreX"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "(Player.X() - 193) - 32"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "KeyReleased"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "d"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::And"
-                                  },
-                                  "parameters": [],
-                                  "subInstructions": [
-                                    {
-                                      "type": {
-                                        "value": "PosX"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "<",
-                                        "837"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "PosX"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        ">=",
-                                        "387"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "AttackDebouncing",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "SlideDebouncing",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "JumpDebouncing",
-                                        ""
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "MettreX"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "(Player.X() + 193) + 32"
-                              ]
-                            }
+                          "type": {
+                            "value": "DepartScene"
+                          },
+                          "parameters": [
+                            ""
                           ]
                         }
                       ],
-                      "parameters": []
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Combatente",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
+                      "actions": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "KeyReleased"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "f"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "JumpDebouncing",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "SlideDebouncing",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "AttackDebouncing",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "AttackDebouncing",
-                                "True"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Attacking\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Default\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "AttackDebouncing",
-                                "False"
-                              ]
-                            }
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Player",
+                            "=",
+                            "612",
+                            "=",
+                            "570"
                           ]
                         }
-                      ],
-                      "parameters": []
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "folded": true,
-                      "name": "Gingado",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "KeyReleased"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "s"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "JumpDebouncing",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "AttackDebouncing",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "SlideDebouncing",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "SlideDebouncing",
-                                "True"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.ZOrder() - 1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Sliding\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Default\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.ZOrder() + 1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "SlideDebouncing",
-                                "False"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "KeyReleased"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "w"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "JumpDebouncing",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "JumpDebouncing",
-                                "True"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.ZOrder() + 1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MettreY"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.Y() - 70"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MettreY"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.Y() + 70"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.ZOrder() - 1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "JumpDebouncing",
-                                "False"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
+                      ]
                     }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "MOB | Mechanics",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
+                  ],
+                  "parameters": []
+                },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SystemInfo::HasTouchScreen"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "LeftArrowRoundButton2",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "RightArrowRoundButton",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "AttackButton",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "TopArrowRoundButton",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "BottomArrowRoundButton",
-                        ""
-                      ]
-                    }
-                  ],
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "PC | Mechanics",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Encantador",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Verifies if the device isnt mobile"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SystemInfo::HasTouchScreen"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "LeftArrowRoundButton2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "RightArrowRoundButton"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "AttackButton"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "TopArrowRoundButton"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "BottomArrowRoundButton"
+                          ]
+                        }
+                      ],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "Encantador",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
                             {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                                  },
-                                  "parameters": [
-                                    "LeftArrowRoundButton2",
-                                    "ButtonFSM",
-                                    "\"Primary\""
-                                  ]
-                                },
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
                                 {
                                   "type": {
                                     "value": "BuiltinCommonInstructions::And"
@@ -3678,22 +3097,335 @@
                                   "subInstructions": [
                                     {
                                       "type": {
-                                        "value": "PosX"
+                                        "value": "KeyReleased"
                                       },
                                       "parameters": [
                                         "Player",
-                                        "<=",
-                                        "837"
+                                        "a"
                                       ]
                                     },
                                     {
                                       "type": {
-                                        "value": "PosX"
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "PosX"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "<=",
+                                            "837"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PosX"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            ">",
+                                            "387"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "AttackDebouncing",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "SlideDebouncing",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "JumpDebouncing",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "MettreX"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "(Player.X() - 193) - 32"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "KeyReleased"
                                       },
                                       "parameters": [
                                         "Player",
-                                        ">",
-                                        "387"
+                                        "d"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "PosX"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "<",
+                                            "837"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PosX"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            ">=",
+                                            "387"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "AttackDebouncing",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "SlideDebouncing",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "JumpDebouncing",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "MettreX"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "(Player.X() + 193) + 32"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "Combatente",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "KeyReleased"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "f"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "JumpDebouncing",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SlideDebouncing",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "AttackDebouncing",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "AttackDebouncing",
+                                    "True"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Attacking\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Default\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "AttackDebouncing",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "Gingado",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "KeyReleased"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "s"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "JumpDebouncing",
+                                        ""
                                       ]
                                     },
                                     {
@@ -3715,54 +3447,86 @@
                                         "SlideDebouncing",
                                         ""
                                       ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "JumpDebouncing",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "MettreX"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "(Player.X() - 193) - 32"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
+                              ],
+                              "actions": [
                                 {
                                   "type": {
-                                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                                    "value": "SetObjectVariableAsBoolean"
                                   },
                                   "parameters": [
-                                    "RightArrowRoundButton",
-                                    "ButtonFSM",
-                                    "\"Primary\""
+                                    "Player",
+                                    "SlideDebouncing",
+                                    "True"
                                   ]
                                 },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.ZOrder() - 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Sliding\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Default\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.ZOrder() + 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "SlideDebouncing",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
                                 {
                                   "type": {
                                     "value": "BuiltinCommonInstructions::And"
@@ -3771,42 +3535,11 @@
                                   "subInstructions": [
                                     {
                                       "type": {
-                                        "value": "PosX"
+                                        "value": "KeyReleased"
                                       },
                                       "parameters": [
-                                        "Player",
-                                        "<",
-                                        "837"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "PosX"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        ">=",
-                                        "387"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "AttackDebouncing",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ObjectVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "SlideDebouncing",
-                                        ""
+                                        "",
+                                        "w"
                                       ]
                                     },
                                     {
@@ -3821,386 +3554,720 @@
                                     }
                                   ]
                                 }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "MettreX"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "(Player.X() + 193) + 32"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Combatente",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
+                              ],
+                              "actions": [
                                 {
                                   "type": {
-                                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                                  },
-                                  "parameters": [
-                                    "AttackButton",
-                                    "ButtonFSM",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
+                                    "value": "SetObjectVariableAsBoolean"
                                   },
                                   "parameters": [
                                     "Player",
                                     "JumpDebouncing",
-                                    ""
+                                    "True"
                                   ]
                                 },
                                 {
                                   "type": {
-                                    "value": "ObjectVariableAsBoolean"
+                                    "value": "ChangePlan"
                                   },
                                   "parameters": [
                                     "Player",
-                                    "SlideDebouncing",
-                                    ""
+                                    "=",
+                                    "Player.ZOrder() + 1"
                                   ]
                                 },
                                 {
                                   "type": {
-                                    "value": "ObjectVariableAsBoolean"
+                                    "value": "MettreY"
                                   },
                                   "parameters": [
                                     "Player",
-                                    "AttackDebouncing",
-                                    ""
+                                    "=",
+                                    "Player.Y() - 70"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "MettreY"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.Y() + 70"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.ZOrder() - 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "JumpDebouncing",
+                                    "False"
                                   ]
                                 }
                               ]
                             }
                           ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "AttackDebouncing",
-                                "True"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Attacking\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Default\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "AttackDebouncing",
-                                "False"
-                              ]
-                            }
-                          ]
+                          "parameters": []
                         }
-                      ],
-                      "parameters": []
-                    },
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Gingado",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                                  },
-                                  "parameters": [
-                                    "BottomArrowRoundButton",
-                                    "ButtonFSM",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "JumpDebouncing",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "AttackDebouncing",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "SlideDebouncing",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "SlideDebouncing",
-                                "True"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.ZOrder() - 1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Sliding\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player",
-                                "Animation",
-                                "=",
-                                "\"Default\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.ZOrder() + 1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "SlideDebouncing",
-                                "False"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::And"
-                              },
-                              "parameters": [],
-                              "subInstructions": [
-                                {
-                                  "type": {
-                                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                                  },
-                                  "parameters": [
-                                    "TopArrowRoundButton",
-                                    "ButtonFSM",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ObjectVariableAsBoolean"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "JumpDebouncing",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "JumpDebouncing",
-                                "True"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.ZOrder() + 1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MettreY"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.Y() - 70"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MettreY"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.Y() + 70"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ChangePlan"
-                              },
-                              "parameters": [
-                                "Player",
-                                "=",
-                                "Player.ZOrder() - 1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player",
-                                "JumpDebouncing",
-                                "False"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
+                      ]
                     }
-                  ]
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "MOB | Mechanics",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SystemInfo::HasTouchScreen"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "LeftArrowRoundButton2",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "RightArrowRoundButton",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "AttackButton",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "TopArrowRoundButton",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "BottomArrowRoundButton",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "Encantador",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                                      },
+                                      "parameters": [
+                                        "LeftArrowRoundButton2",
+                                        "ButtonFSM",
+                                        "\"Primary\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "PosX"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "<=",
+                                            "837"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PosX"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            ">",
+                                            "387"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "AttackDebouncing",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "SlideDebouncing",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "JumpDebouncing",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "MettreX"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "(Player.X() - 193) - 32"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                                      },
+                                      "parameters": [
+                                        "RightArrowRoundButton",
+                                        "ButtonFSM",
+                                        "\"Primary\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "PosX"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "<",
+                                            "837"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PosX"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            ">=",
+                                            "387"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "AttackDebouncing",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "SlideDebouncing",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectVariableAsBoolean"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "JumpDebouncing",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "MettreX"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "(Player.X() + 193) + 32"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "Combatente",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                                      },
+                                      "parameters": [
+                                        "AttackButton",
+                                        "ButtonFSM",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "JumpDebouncing",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SlideDebouncing",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "AttackDebouncing",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "AttackDebouncing",
+                                    "True"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Attacking\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Default\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "AttackDebouncing",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "Gingado",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                                      },
+                                      "parameters": [
+                                        "BottomArrowRoundButton",
+                                        "ButtonFSM",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "JumpDebouncing",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "AttackDebouncing",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "SlideDebouncing",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "SlideDebouncing",
+                                    "True"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.ZOrder() - 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Sliding\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Animation",
+                                    "=",
+                                    "\"Default\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.ZOrder() + 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "SlideDebouncing",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                                      },
+                                      "parameters": [
+                                        "TopArrowRoundButton",
+                                        "ButtonFSM",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "JumpDebouncing",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "JumpDebouncing",
+                                    "True"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.ZOrder() + 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "MettreY"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.Y() - 70"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "MettreY"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.Y() + 70"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "=",
+                                    "Player.ZOrder() - 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "JumpDebouncing",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 }
-              ],
-              "parameters": []
+              ]
             }
           ],
           "parameters": []
@@ -4210,7 +4277,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "BossController",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4270,6 +4336,7 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
+                      "folded": true,
                       "name": "AerialSlash",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
@@ -4849,7 +4916,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "SkillBehavior",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -4859,7 +4925,6 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
-                      "folded": true,
                       "name": "AerialSlash",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
