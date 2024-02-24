@@ -13,7 +13,7 @@
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "pixelsRounding": true,
+    "pixelsRounding": false,
     "projectUuid": "d94e66e6-836d-44c1-9d40-68ed90ac6634",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
@@ -589,6 +589,880 @@
         "name": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle13.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Anims/Idle/PlayerIdle13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Divider/Divider.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Divider\\Divider.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Áudio do WhatsApp de 2024-02-23 à(s) 22.29.58_bb85c696.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Áudio do WhatsApp de 2024-02-23 à(s) 22.29.58_bb85c696.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Background/BackgroundFog1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Background\\BackgroundFog1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Background/BackgroundFog2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Background\\BackgroundFog2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Background/BackgroundFog3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Background\\BackgroundFog3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Background/BackgroundFog4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Background\\BackgroundFog4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Background/BackgroundFog5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Background\\BackgroundFog5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Background/BackgroundFog6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Background\\BackgroundFog6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Background/BackgroundFog7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Background\\BackgroundFog7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Background/BackgroundFog8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Background\\BackgroundFog8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Background/BackgroundFog9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Background\\BackgroundFog9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Clouds/Clouds.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Clouds\\Clouds.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Floor/Grass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Floor\\Grass.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slime_Ball.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Slime_Ball.png\"}",
+        "name": "Slime_Ball",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Default6.png\"}",
+        "name": "Default6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slime_Ball3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slime_Ball3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Floor/Ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Floor\\Ground.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Lick/Lick10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Lick\\Lick10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Plancton/Plancton11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Plancton\\Plancton11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/YellowTooth/YellowTeeth9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Rose/Rose10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Rose\\Rose10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Plants/Kitch/Kitch12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Plants\\Kitch\\Kitch12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slime_Ball4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slime_Ball4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slime_Ball5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slime_Ball5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Default11",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -687,7 +1561,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.553947355808727,
+        "zoomFactor": 0.4539940364887478,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -727,13 +1601,12 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": true,
           "name": "Player",
           "persistentUuid": "0ad41db4-452e-4693-92f4-a6d34136e0e0",
           "width": 0,
-          "x": 612,
-          "y": 570,
-          "zOrder": 1,
+          "x": 424,
+          "y": 583,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -743,11 +1616,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Grid",
+          "name": "Divider",
           "persistentUuid": "7bef35a1-1190-4918-96be-f1a3e5e1b53a",
           "width": 0,
-          "x": 350,
-          "y": 1,
+          "x": 400,
+          "y": 0,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -758,10 +1631,10 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Grid",
+          "name": "Divider",
           "persistentUuid": "4da0ab89-8561-4842-90ec-1aa1ce27aa07",
           "width": 0,
-          "x": 930,
+          "x": 62,
           "y": 0,
           "zOrder": 4,
           "numberProperties": [],
@@ -953,13 +1826,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 590,
+          "height": 263,
           "layer": "",
           "name": "Colision",
           "persistentUuid": "7c36cfd1-40b6-495b-8254-4fc7b886e674",
           "width": 1276,
           "x": 4,
-          "y": 723,
+          "y": 1050,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -970,57 +1843,12 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Flautista",
-          "persistentUuid": "32f771af-a739-414e-a3dd-8056f3f00b13",
-          "width": 0,
-          "x": 1071,
-          "y": 83,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Percussionista",
-          "persistentUuid": "d7ffe7aa-6ded-4a69-b3df-5e58255373fa",
-          "width": 0,
-          "x": 1074,
-          "y": 334,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Alaudista",
-          "persistentUuid": "11bc0afe-364b-4c6d-9381-371b0ef9c11d",
-          "width": 0,
-          "x": 1144,
-          "y": 206,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Floor",
+          "name": "Background",
           "persistentUuid": "36231fbc-914a-4c17-adcd-c5fdd4f010db",
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": -1,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1036,6 +1864,156 @@
           "x": 645,
           "y": 451,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Clouds",
+          "persistentUuid": "d3966dcc-1729-4470-8bc9-517acc9a4494",
+          "width": 0,
+          "x": 216,
+          "y": 86,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Floor",
+          "persistentUuid": "aab21231-1fff-4f2b-9643-9021cf888335",
+          "width": 0,
+          "x": 400,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Lick",
+          "persistentUuid": "e1a798ec-5235-45ee-9996-30056a68566d",
+          "width": 0,
+          "x": 418,
+          "y": 281,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Plancton",
+          "persistentUuid": "c8629ee7-45c1-42c6-9bf3-e4e7fedefd20",
+          "width": 0,
+          "x": 423,
+          "y": 82,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Plancton",
+          "persistentUuid": "63476124-07ad-4342-ba86-c102572bd017",
+          "width": 0,
+          "x": 797,
+          "y": 229,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "YellowTooth",
+          "persistentUuid": "dc04470a-da2e-4902-bcd6-28d753f0d21a",
+          "width": 0,
+          "x": 814,
+          "y": 446,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "YellowTooth",
+          "persistentUuid": "0689852c-5adc-4e47-bc21-9bf07fbf84bd",
+          "width": 0,
+          "x": 408,
+          "y": 491,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "YellowTooth",
+          "persistentUuid": "ddba6421-c9e0-43ee-8dc3-d7ef3c1ffe4b",
+          "width": 0,
+          "x": 416,
+          "y": 165,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Rose",
+          "persistentUuid": "3142b8f9-dd00-4372-abd8-20581a06f628",
+          "width": 0,
+          "x": 807,
+          "y": 87,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Kitch",
+          "persistentUuid": "6f0a1479-470f-4e4a-9a61-db5f89f87b58",
+          "width": 0,
+          "x": 751,
+          "y": 148,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1148,7 +2126,36 @@
               "value": false
             }
           ],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Bevel",
+              "name": "Effect2",
+              "doubleParameters": {
+                "distance": 15,
+                "lightAlpha": 0,
+                "rotation": 1,
+                "shadowAlpha": 1,
+                "thickness": 1.5
+              },
+              "stringParameters": {
+                "lightColor": "255;255;255",
+                "shadowColor": "0;0;0"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [
             {
               "name": "TopDownMovement",
@@ -1173,529 +2180,11 @@
               "directions": [
                 {
                   "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Player\\Anims\\Idle\\Idle\\PlayerIdle13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 7,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 1
-                          },
-                          {
-                            "x": 121,
-                            "y": 128
-                          },
-                          {
-                            "x": 7,
-                            "y": 128
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Sliding",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Sliding",
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1711,40 +2200,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7,
-                            "y": 1
+                            "x": 14,
+                            "y": 2
                           },
                           {
-                            "x": 121,
-                            "y": 1
+                            "x": 242,
+                            "y": 2
                           },
                           {
-                            "x": 121,
-                            "y": 128
+                            "x": 242,
+                            "y": 256
                           },
                           {
-                            "x": 7,
-                            "y": 128
+                            "x": 14,
+                            "y": 256
                           }
                         ]
                       ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Attacking",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
+                    },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Attacking",
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1760,40 +2236,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7,
-                            "y": 1
+                            "x": 14,
+                            "y": 2
                           },
                           {
-                            "x": 121,
-                            "y": 1
+                            "x": 242,
+                            "y": 2
                           },
                           {
-                            "x": 121,
-                            "y": 128
+                            "x": 242,
+                            "y": 256
                           },
                           {
-                            "x": 7,
-                            "y": 128
+                            "x": 14,
+                            "y": 256
                           }
                         ]
                       ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hited",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
+                    },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Hited",
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1809,20 +2272,380 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7,
-                            "y": 1
+                            "x": 14,
+                            "y": 2
                           },
                           {
-                            "x": 121,
-                            "y": 1
+                            "x": 242,
+                            "y": 2
                           },
                           {
-                            "x": 121,
-                            "y": 128
+                            "x": 242,
+                            "y": 256
                           },
                           {
-                            "x": 7,
-                            "y": 128
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Player\\Anims\\Idle\\PlayerIdle13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 2
+                          },
+                          {
+                            "x": 242,
+                            "y": 256
+                          },
+                          {
+                            "x": 14,
+                            "y": 256
                           }
                         ]
                       ]
@@ -1836,7 +2659,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Grid",
+          "name": "Divider",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1844,7 +2667,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "Default",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1854,7 +2677,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
+                      "image": "assets\\Props\\Divider\\Divider.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1895,7 +2718,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "AerialSlash",
           "type": "Sprite",
@@ -1918,7 +2741,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "Default",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1928,36 +2751,36 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite23",
+                      "image": "Default11",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 69.5,
-                        "y": 75.5
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 63,
-                        "y": 70
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
                           {
                             "x": 0,
-                            "y": 21
+                            "y": 0
                           },
                           {
-                            "x": 256,
-                            "y": 21
+                            "x": 128,
+                            "y": 0
                           },
                           {
-                            "x": 256,
-                            "y": 76
+                            "x": 128,
+                            "y": 128
                           },
                           {
                             "x": 0,
-                            "y": 76
+                            "y": 128
                           }
                         ]
                       ]
@@ -2002,7 +2825,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Slime_Ball2",
+                      "image": "Slime_Ball5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2022,16 +2845,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 128,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 128,
+                            "y": 128
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 128
                           }
                         ]
                       ]
@@ -2076,7 +2899,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite9",
+                      "image": "Default10",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2092,20 +2915,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 60,
+                            "x": 128,
                             "y": 0
                           },
                           {
-                            "x": 60,
-                            "y": 64
+                            "x": 128,
+                            "y": 128
                           },
                           {
-                            "x": 4,
-                            "y": 64
+                            "x": 0,
+                            "y": 128
                           }
                         ]
                       ]
@@ -2422,51 +3245,14 @@
           ],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "Default",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite13",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 80,
-                            "y": 0
-                          },
-                          {
-                            "x": 80,
-                            "y": 80
-                          },
-                          {
-                            "x": 0,
-                            "y": 80
-                          }
-                        ]
-                      ]
-                    }
-                  ]
+                  "sprites": []
                 }
               ]
             }
@@ -3190,44 +3976,7 @@
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite27",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
+                  "sprites": []
                 }
               ]
             }
@@ -3244,17 +3993,41 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "Default",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Fog",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite29",
+                      "image": "assets\\Props\\Background\\BackgroundFog1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3274,48 +4047,275 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 1280,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 1280,
+                            "y": 720
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 720
                           }
                         ]
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Floor",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Stone",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
+                    },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite6",
+                      "image": "assets\\Props\\Background\\BackgroundFog2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Background\\BackgroundFog3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Background\\BackgroundFog4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Background\\BackgroundFog5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Background\\BackgroundFog6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Background\\BackgroundFog7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Background\\BackgroundFog8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Background\\BackgroundFog9.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3369,17 +4369,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "Camera",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -3412,6 +4401,2298 @@
                         "y": 0
                       },
                       "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Clouds",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Clouds\\Clouds.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 863,
+                            "y": 3
+                          },
+                          {
+                            "x": 863,
+                            "y": 401
+                          },
+                          {
+                            "x": 6,
+                            "y": 401
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Floor",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Floor\\Ground.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 480,
+                            "y": 0
+                          },
+                          {
+                            "x": 480,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lick",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Lick\\Lick10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 0
+                          },
+                          {
+                            "x": 61,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Plancton",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Plancton\\Plancton11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 0
+                          },
+                          {
+                            "x": 79,
+                            "y": 58
+                          },
+                          {
+                            "x": 0,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "YellowTooth",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\YellowTooth\\YellowTeeth9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 42
+                          },
+                          {
+                            "x": 0,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Rose",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Rose\\Rose10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 0
+                          },
+                          {
+                            "x": 62,
+                            "y": 46
+                          },
+                          {
+                            "x": 0,
+                            "y": 46
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Kitch",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Plants\\Kitch\\Kitch12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 0
+                          },
+                          {
+                            "x": 89,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -3489,7 +6770,10 @@
             "objectName": "Player"
           },
           {
-            "objectName": "Grid"
+            "objectName": "Divider"
+          },
+          {
+            "objectName": "Floor"
           },
           {
             "objectName": "Flautista"
@@ -3501,13 +6785,28 @@
             "objectName": "Alaudista"
           },
           {
-            "objectName": "Floor"
+            "objectName": "Background"
           },
           {
-            "objectName": "NewSprite2"
+            "objectName": "Clouds"
           },
           {
             "objectName": "Camera"
+          },
+          {
+            "objectName": "Lick"
+          },
+          {
+            "objectName": "Plancton"
+          },
+          {
+            "objectName": "YellowTooth"
+          },
+          {
+            "objectName": "Rose"
+          },
+          {
+            "objectName": "Kitch"
           }
         ]
       },
@@ -3551,6 +6850,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Áudio do WhatsApp de 2024-02-23 à(s) 22.29.58_bb85c696.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -3563,46 +6887,7 @@
           "name": "CameraBehavior",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ZoomCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "1.5",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CentreCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "Camera",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
+          "events": [],
           "parameters": []
         },
         {
@@ -3615,180 +6900,259 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "CloudsBehavior",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "Health::Health::Health"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "Health",
-                    "=",
-                    "0",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Clouds",
+                        "0",
+                        "100",
+                        "1"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Clouds",
+                        "Colision",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Clouds",
+                        "=",
+                        "-300"
+                      ]
+                    }
+                  ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "MatchStarted",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::SetHealth"
-                  },
-                  "parameters": [
-                    "HealthBar",
-                    "Health",
-                    "HealthBar.Health::MaxHealth()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Health::Health::SetHealth"
-                  },
-                  "parameters": [
-                    "EnergyBar",
-                    "Health",
-                    "EnergyBar.Health::MaxHealth()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"YouLose\"",
-                    ""
-                  ]
-                }
-              ]
+              "parameters": []
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Win/Lose Conditions",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "Health::Health::Health"
-                  },
-                  "parameters": [
-                    "EnergyBar",
-                    "Health",
-                    "<=",
-                    "0",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::Health"
+                      },
+                      "parameters": [
+                        "HealthBar",
+                        "Health",
+                        "=",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "MatchStarted",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Health::Health::SetHealth"
+                      },
+                      "parameters": [
+                        "HealthBar",
+                        "Health",
+                        "HealthBar.Health::MaxHealth()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Health::Health::SetHealth"
+                      },
+                      "parameters": [
+                        "EnergyBar",
+                        "Health",
+                        "EnergyBar.Health::MaxHealth()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"YouLose\"",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::Health"
+                      },
+                      "parameters": [
+                        "EnergyBar",
+                        "Health",
+                        "<=",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "WinFrame",
+                        "0",
+                        "0",
+                        "\"GUI\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "TryAgainButton",
+                        "WinFrame.PointX(\"Button\")",
+                        "WinFrame.PointY(\"Button\")",
+                        "\"GUI\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "WinFrame",
+                        "=",
+                        "1000"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "TryAgainButton",
+                        "=",
+                        "1002"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "WinFrame",
+                        "Resizable",
+                        "=",
+                        "1280"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "WinFrame",
+                        "Resizable",
+                        "=",
+                        "720"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "MatchStarted",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"YouWin\"",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "WinFrame",
-                    "0",
-                    "0",
-                    "\"GUI\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "TryAgainButton",
-                    "WinFrame.PointX(\"Button\")",
-                    "WinFrame.PointY(\"Button\")",
-                    "\"GUI\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "WinFrame",
-                    "=",
-                    "1000"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "TryAgainButton",
-                    "=",
-                    "1002"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
-                  },
-                  "parameters": [
-                    "WinFrame",
-                    "Resizable",
-                    "=",
-                    "1280"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
-                  },
-                  "parameters": [
-                    "WinFrame",
-                    "Resizable",
-                    "=",
-                    "720"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "MatchStarted",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"YouWin\"",
-                    ""
-                  ]
-                }
-              ]
+              "parameters": []
             }
           ],
           "parameters": []
@@ -3798,7 +7162,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "PlayerController",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3823,7 +7186,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PlayerPosition",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3848,9 +7210,9 @@
                           "parameters": [
                             "Player",
                             "=",
-                            "612",
+                            "584",
                             "=",
-                            "570"
+                            "583"
                           ]
                         }
                       ]
@@ -3975,7 +7337,7 @@
                                           "parameters": [
                                             "Player",
                                             "<=",
-                                            "837"
+                                            "744"
                                           ]
                                         },
                                         {
@@ -3985,7 +7347,7 @@
                                           "parameters": [
                                             "Player",
                                             ">",
-                                            "387"
+                                            "424"
                                           ]
                                         },
                                         {
@@ -4031,7 +7393,7 @@
                                   "parameters": [
                                     "Player",
                                     "=",
-                                    "(Player.X() - 193) - 32"
+                                    "(Player.X() - 160)"
                                   ]
                                 }
                               ]
@@ -4067,7 +7429,7 @@
                                           "parameters": [
                                             "Player",
                                             "<",
-                                            "837"
+                                            "744"
                                           ]
                                         },
                                         {
@@ -4077,7 +7439,7 @@
                                           "parameters": [
                                             "Player",
                                             ">=",
-                                            "387"
+                                            "424"
                                           ]
                                         },
                                         {
@@ -4123,7 +7485,7 @@
                                   "parameters": [
                                     "Player",
                                     "=",
-                                    "(Player.X() + 193) + 32"
+                                    "(Player.X() + 160)"
                                   ]
                                 }
                               ]
@@ -5134,8 +8496,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
-          "name": "BossController",
+          "name": "WaveController",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -5159,7 +8520,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "SkillHandler",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -5260,8 +8620,8 @@
                               "parameters": [
                                 "",
                                 "AerialSlash",
-                                "Player.CenterX()",
-                                "164",
+                                "Player.X() ",
+                                "199",
                                 ""
                               ]
                             },
@@ -5590,7 +8950,7 @@
                                   "parameters": [
                                     "",
                                     "BabySlime",
-                                    "387",
+                                    "424",
                                     "199",
                                     ""
                                   ]
@@ -5629,7 +8989,7 @@
                                   "parameters": [
                                     "",
                                     "BabySlime",
-                                    "612",
+                                    "584",
                                     "199",
                                     ""
                                   ]
@@ -5668,7 +9028,7 @@
                                   "parameters": [
                                     "",
                                     "BabySlime",
-                                    "837",
+                                    "744",
                                     "199",
                                     ""
                                   ]
@@ -5839,7 +9199,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "SkillBehavior",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -5849,7 +9208,6 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
-                      "folded": true,
                       "name": "AerialSlash",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
