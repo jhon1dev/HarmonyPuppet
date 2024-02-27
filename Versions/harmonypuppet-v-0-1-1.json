@@ -1850,6 +1850,510 @@
         "name": "assets\\Props\\Wind\\WindEffect20.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MidGrass/MidGrass10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MidGrass\\MidGrass10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking15.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Attacking/KitchAttacking16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking16.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/StartAttacking/KitchStartAttack10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle17.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle18.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle19.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Kitch/Idle/KitchIdle20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle20.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1948,7 +2452,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5183968793425923,
+        "zoomFactor": 0.6538585116919292,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2342,6 +2846,321 @@
           "x": 1281,
           "y": -1,
           "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "fcb20f31-9672-43fe-9502-ea6862dcbc68",
+          "width": 0,
+          "x": 45,
+          "y": 77,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "db295e9f-56ac-4550-898c-b4a75a518e51",
+          "width": 0,
+          "x": 206,
+          "y": 100,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "fc54adac-2a96-4582-bf45-65e34344567f",
+          "width": 0,
+          "x": 56,
+          "y": 250,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "0173d588-34a8-4613-bab4-eaf531d75216",
+          "width": 0,
+          "x": 274,
+          "y": 299,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "9ece9759-89f7-48ef-b4b3-89f287dc2120",
+          "width": 0,
+          "x": 96,
+          "y": 547,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "31244680-e2f8-464b-8f46-3d0f45d32fdf",
+          "width": 0,
+          "x": 1058,
+          "y": 583,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "5394fbd8-8f95-4a5d-acfb-a468f7863ce0",
+          "width": 0,
+          "x": 1030,
+          "y": 336,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "d9cc435e-206c-4966-ab88-3208695bcff1",
+          "width": 0,
+          "x": 1104,
+          "y": 164,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "639a145f-1d3f-431b-912e-cafe53fc9404",
+          "width": 0,
+          "x": 1222,
+          "y": 89,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "3d2ee02c-d020-48ba-9fce-d288df50de82",
+          "width": 0,
+          "x": 976,
+          "y": 195,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "515d8f44-0d6b-494f-ab3f-bf200a7ed598",
+          "width": 0,
+          "x": 1187,
+          "y": 308,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "946f793a-ee31-4530-b078-d6ae0e8b9709",
+          "width": 0,
+          "x": 953,
+          "y": 684,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "35d25034-a3ce-4955-9dca-d45da4a96ffe",
+          "width": 0,
+          "x": 1211,
+          "y": 641,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "f2391b75-9567-4aee-a056-9222da384ee4",
+          "width": 0,
+          "x": 1034,
+          "y": 65,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "59ed8556-b6f3-4781-b2cb-865e60133ff2",
+          "width": 0,
+          "x": 968,
+          "y": 259,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "b07eee19-a025-4dc6-95ec-9a01fb86ae86",
+          "width": 0,
+          "x": 1224,
+          "y": 244,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "8929ec73-2809-46b4-b021-0d35baa91d79",
+          "width": 0,
+          "x": 340,
+          "y": 181,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "9c9b91cd-cc5a-4655-9bdc-2a2869c01d3e",
+          "width": 0,
+          "x": 30,
+          "y": 114,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "0bccf360-087c-4014-908e-be9b8c68bf51",
+          "width": 0,
+          "x": 301,
+          "y": 528,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "09057d2b-4edc-4d9c-9c49-233ef9ae7ce6",
+          "width": 0,
+          "x": 21,
+          "y": 698,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SmallGrass",
+          "persistentUuid": "aefa28dd-a546-44e6-a514-7619f61ac99d",
+          "width": 0,
+          "x": 195,
+          "y": 698,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6019,7 +6838,379 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Default",
+              "name": "StartAttack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\StartAttacking\\KitchStartAttack10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Attacking",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6028,7 +7219,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6045,26 +7236,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch1.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6081,26 +7272,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch2.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6117,26 +7308,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch3.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6153,26 +7344,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch4.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6189,26 +7380,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch5.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6225,26 +7416,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch6.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6261,26 +7452,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch7.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6297,26 +7488,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch8.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking9.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6333,26 +7524,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch9.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking10.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6369,26 +7560,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch10.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking11.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6405,26 +7596,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch11.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking12.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6441,26 +7632,26 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Kitch\\Kitch12.png",
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking13.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6477,19 +7668,859 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 0
+                            "x": 290,
+                            "y": 20
                           },
                           {
-                            "x": 89,
-                            "y": 69
+                            "x": 290,
+                            "y": 222
                           },
                           {
                             "x": 0,
-                            "y": 69
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
                           }
                         ]
                       ]
@@ -7043,8 +9074,8 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.15,
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -7068,16 +9099,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7104,16 +9135,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7140,16 +9171,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7176,16 +9207,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7212,16 +9243,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7248,16 +9279,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7284,16 +9315,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7320,16 +9351,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7356,16 +9387,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7392,16 +9423,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7428,16 +9459,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7464,16 +9495,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7500,16 +9531,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7536,16 +9567,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7572,16 +9603,16 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
@@ -7608,23 +9639,47 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 60,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 60,
+                            "y": 26
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 26
                           }
                         ]
                       ]
-                    },
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SmallGrass",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Wind\\WindEffect17.png",
+                      "image": "assets\\Props\\MidGrass\\MidGrass1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7644,23 +9699,23 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 16,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 16,
+                            "y": 8
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 8
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Wind\\WindEffect18.png",
+                      "image": "assets\\Props\\MidGrass\\MidGrass2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7680,23 +9735,23 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 16,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 16,
+                            "y": 8
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 8
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Wind\\WindEffect19.png",
+                      "image": "assets\\Props\\MidGrass\\MidGrass3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7716,23 +9771,23 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 16,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 16,
+                            "y": 8
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 8
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Wind\\WindEffect20.png",
+                      "image": "assets\\Props\\MidGrass\\MidGrass4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7752,16 +9807,232 @@
                             "y": 0
                           },
                           {
-                            "x": 30,
+                            "x": 16,
                             "y": 0
                           },
                           {
-                            "x": 30,
-                            "y": 13
+                            "x": 16,
+                            "y": 8
                           },
                           {
                             "x": 0,
-                            "y": 13
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MidGrass\\MidGrass5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MidGrass\\MidGrass6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MidGrass\\MidGrass7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MidGrass\\MidGrass8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MidGrass\\MidGrass9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MidGrass\\MidGrass10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
                           }
                         ]
                       ]
@@ -7879,6 +10150,9 @@
           },
           {
             "objectName": "Kitch"
+          },
+          {
+            "objectName": "SmallGrass"
           }
         ]
       },
@@ -7892,6 +10166,55 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Kitch",
+                    "500",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Kitch",
+                    "0",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
             {
               "colorB": 228,
               "colorG": 176,
@@ -11885,7 +14208,7 @@
                         "",
                         "WindEffect",
                         "0",
-                        "RandomInRange(300, 500)",
+                        "RandomInRange(100, 500)",
                         ""
                       ]
                     },
