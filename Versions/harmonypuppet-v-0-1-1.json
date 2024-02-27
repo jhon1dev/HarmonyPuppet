@@ -2354,6 +2354,123 @@
         "name": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle20.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Animals/Rose/Rose13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Animals\\Rose\\Rose13.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2452,7 +2569,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6538585116919292,
+        "zoomFactor": 0.7222589868687824,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2489,13 +2606,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
           "layer": "",
           "name": "Player",
           "persistentUuid": "0ad41db4-452e-4693-92f4-a6d34136e0e0",
-          "width": 0,
-          "x": 584,
+          "width": 128,
+          "x": 565,
           "y": 583,
           "zOrder": 3,
           "numberProperties": [],
@@ -3130,36 +3248,6 @@
           "width": 0,
           "x": 301,
           "y": 528,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "SmallGrass",
-          "persistentUuid": "09057d2b-4edc-4d9c-9c49-233ef9ae7ce6",
-          "width": 0,
-          "x": 21,
-          "y": 698,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "SmallGrass",
-          "persistentUuid": "aefa28dd-a546-44e6-a514-7619f61ac99d",
-          "width": 0,
-          "x": 195,
-          "y": 698,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -6418,7 +6506,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Default",
+              "name": "Flying",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6427,7 +6515,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6443,27 +6531,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose1.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6479,27 +6567,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose2.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6515,27 +6603,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose3.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6551,27 +6639,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose4.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6587,27 +6675,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose5.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6623,27 +6711,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose6.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6659,27 +6747,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose7.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6695,27 +6783,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose8.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose9.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6731,27 +6819,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose9.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose10.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6767,27 +6855,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Plants\\Rose\\Rose10.png",
+                      "image": "assets\\Props\\Animals\\Rose\\Rose11.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6803,20 +6891,92 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 62,
+                            "x": 122,
                             "y": 0
                           },
                           {
-                            "x": 62,
-                            "y": 46
+                            "x": 122,
+                            "y": 78
                           },
                           {
-                            "x": 0,
-                            "y": 46
+                            "x": 2,
+                            "y": 78
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Rose\\Rose12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 122,
+                            "y": 0
+                          },
+                          {
+                            "x": 122,
+                            "y": 78
+                          },
+                          {
+                            "x": 2,
+                            "y": 78
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Rose\\Rose13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 122,
+                            "y": 0
+                          },
+                          {
+                            "x": 122,
+                            "y": 78
+                          },
+                          {
+                            "x": 2,
+                            "y": 78
                           }
                         ]
                       ]
@@ -6837,6 +6997,738 @@
           "effects": [],
           "behaviors": [],
           "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 20
+                          },
+                          {
+                            "x": 290,
+                            "y": 222
+                          },
+                          {
+                            "x": 0,
+                            "y": 222
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "name": "StartAttack",
               "useMultipleDirections": false,
@@ -7760,738 +8652,6 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\Props\\Animals\\Kitch\\Attacking\\KitchAttacking16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle17.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle18.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle19.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 20
-                          },
-                          {
-                            "x": 290,
-                            "y": 222
-                          },
-                          {
-                            "x": 0,
-                            "y": 222
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Animals\\Kitch\\Idle\\KitchIdle20.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10167,45 +10327,159 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Kitch",
+                        "500",
+                        "100",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Kitch",
+                        "Animation"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Kitch",
+                        "Animation",
+                        "=",
+                        "\"StartAttack\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Kitch",
+                        "Animation"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Kitch",
+                        "Animation",
+                        "=",
+                        "\"Attacking\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Kitch",
+                        "0",
+                        "100",
+                        "1"
+                      ]
+                    }
+                  ]
                 }
-              ],
-              "actions": [
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Kitch",
-                    "500",
-                    "100",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Kitch",
-                    "0",
-                    "100",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Plancton",
+                        "500",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Plancton",
+                        "0",
+                        "100",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -10213,7 +10487,47 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": []
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Rose",
+                        "500",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Rose",
+                        "0",
+                        "100",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "colorB": 228,
@@ -10300,7 +10614,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "PlayerController",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -10476,7 +10789,7 @@
                                               "parameters": [
                                                 "Player",
                                                 "<=",
-                                                "744"
+                                                "754"
                                               ]
                                             },
                                             {
@@ -10486,7 +10799,7 @@
                                               "parameters": [
                                                 "Player",
                                                 ">",
-                                                "424"
+                                                "414"
                                               ]
                                             },
                                             {
@@ -10532,7 +10845,7 @@
                                       "parameters": [
                                         "Player",
                                         "=",
-                                        "(Player.X() - 160)"
+                                        "(Player.X() - 170)"
                                       ]
                                     }
                                   ]
@@ -10568,7 +10881,7 @@
                                               "parameters": [
                                                 "Player",
                                                 "<",
-                                                "744"
+                                                "754"
                                               ]
                                             },
                                             {
@@ -10578,7 +10891,7 @@
                                               "parameters": [
                                                 "Player",
                                                 ">=",
-                                                "424"
+                                                "414"
                                               ]
                                             },
                                             {
@@ -10624,7 +10937,7 @@
                                       "parameters": [
                                         "Player",
                                         "=",
-                                        "(Player.X() + 160)"
+                                        "(Player.X() + 170)"
                                       ]
                                     }
                                   ]
