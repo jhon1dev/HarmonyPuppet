@@ -3509,6 +3509,33 @@
         "name": "NewSprite8",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/GUI/Input/OtherButtons/BackToMenu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\GUI\\Input\\OtherButtons\\BackToMenu.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/GUI/Input/OtherButtons/TryAgain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\GUI\\Input\\OtherButtons\\TryAgain.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/WipFrame/WorkInProgress.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\WipFrame\\WorkInProgress.jpg",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3607,7 +3634,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5539473558087333,
+        "zoomFactor": 0.43918458724083737,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3635,6 +3662,24 @@
           "name": "PlayingTutorial",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "TutorialStep",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "name": "LickSpawnDebouncing",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "RoseSpawnDebouncing",
+          "type": "boolean",
+          "value": true
         }
       ],
       "instances": [
@@ -4328,6 +4373,21 @@
           "x": 457,
           "y": 247,
           "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Transition",
+          "persistentUuid": "550dbfcd-3130-4a9b-b8c8-ebfc4e867a77",
+          "width": 0,
+          "x": 1252,
+          "y": 687,
+          "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12878,6 +12938,51 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Transition",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "FlashTransitionPainter",
+              "type": "FlashTransitionPainter::FlashTransitionPainter",
+              "Timer": 1,
+              "Color": "255;255;255",
+              "Type": "",
+              "Direction": "",
+              "MaxOpacity": 255
+            }
+          ],
+          "fillOpacity": 255,
+          "outlineSize": 1,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true,
+          "antialiasing": "none"
         }
       ],
       "objectsFolderStructure": {
@@ -12995,6 +13100,12 @@
           },
           {
             "objectName": "TutorialMask"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Transition"
           }
         ]
       },
@@ -13590,7 +13701,7 @@
                           "parameters": [
                             "",
                             "Lick",
-                            "530",
+                            "Player.X() - 56",
                             "100",
                             ""
                           ]
@@ -13873,6 +13984,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Tutorial",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13990,6 +14102,16 @@
                       "subInstructions": [
                         {
                           "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "TutorialStep",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SceneVariableAsBoolean"
                           },
                           "parameters": [
@@ -14099,23 +14221,52 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "BuiltinCommonInstructions::And"
                       },
-                      "parameters": [
-                        "MobCounter",
-                        "MobCounter",
-                        "=",
-                        "20"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Music",
+                            "\"MusicTimer\"",
+                            ">=",
+                            "7.25"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Music",
+                            "\"MusicTimer\"",
+                            "<",
+                            "7.26"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "TutorialStep",
+                        "=",
+                        "2"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "SetSceneVariableAsBoolean"
@@ -14164,6 +14315,17 @@
                     },
                     {
                       "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TutorialText",
+                        "Text",
+                        "=",
+                        "\"Pressione S/Down para desviar\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "PauseObjectTimer"
                       },
                       "parameters": [
@@ -14184,22 +14346,21 @@
                       "subInstructions": [
                         {
                           "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "TutorialStep",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SceneVariableAsBoolean"
                           },
                           "parameters": [
                             "PlayingTutorial",
                             "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "MobCounter",
-                            "MobCounter",
-                            "=",
-                            "20"
                           ]
                         },
                         {
@@ -14225,6 +14386,42 @@
                                 "",
                                 "Down"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Right"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "d"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "a"
+                              ]
                             }
                           ]
                         }
@@ -14232,17 +14429,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "TutorialText",
-                        "Text",
-                        "=",
-                        "\"Pressione S/Down para desviar\""
-                      ]
-                    },
                     {
                       "type": {
                         "value": "RePlaySoundCanal"
@@ -14269,6 +14455,268 @@
                         "Rose",
                         "0",
                         "400",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Tutorial\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PlayingTutorial",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Music",
+                            "\"MusicTimer\"",
+                            ">=",
+                            "8.85"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Music",
+                            "\"MusicTimer\"",
+                            "<",
+                            "8.86"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "TutorialStep",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "PlayingTutorial",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Lick"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FadeSoundVolume"
+                      },
+                      "parameters": [
+                        "",
+                        "0",
+                        "20",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Tutorial\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TutorialText",
+                        "Text",
+                        "=",
+                        "\"Pressione W/UP para desviar\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Music",
+                        "\"MusicTimer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "TutorialStep",
+                            "=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "PlayingTutorial",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "w"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Up"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Right"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "d"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyReleased"
+                              },
+                              "parameters": [
+                                "",
+                                "a"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RePlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Music",
+                        "\"MusicTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Lick",
+                        "0",
+                        "450",
                         "1"
                       ]
                     },
@@ -14483,6 +14931,14 @@
                                 "value": "Cache"
                               },
                               "parameters": [
+                                "TopArrowRoundButton"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Cache"
+                              },
+                              "parameters": [
                                 "LeftArrowRoundButton2"
                               ]
                             },
@@ -14492,14 +14948,6 @@
                               },
                               "parameters": [
                                 "RightArrowRoundButton"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "TopArrowRoundButton"
                               ]
                             },
                             {
@@ -15351,7 +15799,775 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "name": "StartMusic",
+                          "name": "Spawner Handler",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "0.5"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "22.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "23"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "18.5"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "19"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetSceneVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "KitchSpawnDebouncing",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "13"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "14"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "17"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "18"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "20.5"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "21"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "24.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "25.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "26"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "26.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "27"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "27.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "28"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "28.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "29"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "29.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "30"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "30.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "31"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "31.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "32"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "32.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "33"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetSceneVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "RoseSpawnDebouncing",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "23.25"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "24"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "19.5"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "20"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "15"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "16"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::And"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            ">=",
+                                            "10.5"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CompareObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Music",
+                                            "\"MusicTimer\"",
+                                            "<",
+                                            "11"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Once"
+                                          },
+                                          "parameters": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetSceneVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "LickSpawnDebouncing",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Music Handler",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
@@ -15428,7 +16644,7 @@
                                             "MobCounter",
                                             "MobCounter",
                                             "<=",
-                                            "20"
+                                            "39"
                                           ]
                                         },
                                         {
@@ -15454,12 +16670,46 @@
                                   "actions": [
                                     {
                                       "type": {
+                                        "value": "SetSceneVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "RoseSpawnDebouncing",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "SceneVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "RoseSpawnDebouncing",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetSceneVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "RoseSpawnDebouncing",
+                                        "True"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
                                         "value": "Create"
                                       },
                                       "parameters": [
                                         "",
                                         "Rose",
-                                        "586",
+                                        "Player.X() + 21",
                                         "100",
                                         ""
                                       ]
@@ -15557,24 +16807,10 @@
                               "colorG": 176,
                               "colorR": 74,
                               "creationTime": 0,
-                              "disabled": true,
-                              "folded": true,
                               "name": "Sliding Enemy",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
                               "events": [
-                                {
-                                  "type": "BuiltinCommonInstructions::Comment",
-                                  "color": {
-                                    "b": 109,
-                                    "g": 230,
-                                    "r": 255,
-                                    "textB": 0,
-                                    "textG": 0,
-                                    "textR": 0
-                                  },
-                                  "comment": "Instanciate the SlimeBall skill."
-                                },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
@@ -15586,36 +16822,101 @@
                                       "subInstructions": [
                                         {
                                           "type": {
-                                            "value": "VarScene"
+                                            "value": "VarObjet"
                                           },
                                           "parameters": [
-                                            "WaveNumber",
-                                            "=",
-                                            "2"
+                                            "MobCounter",
+                                            "MobCounter",
+                                            "<=",
+                                            "38"
                                           ]
                                         },
                                         {
                                           "type": {
-                                            "value": "ObjectVariableAsBoolean"
+                                            "value": "VarObjet"
                                           },
                                           "parameters": [
-                                            "Boss",
-                                            "SlimeBallDebouncing",
-                                            ""
+                                            "MobCounter",
+                                            "MobCounter",
+                                            ">",
+                                            "0"
                                           ]
                                         }
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetSceneVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "LickSpawnDebouncing",
+                                        "False"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "SceneVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "LickSpawnDebouncing",
+                                        ""
                                       ]
                                     }
                                   ],
                                   "actions": [
                                     {
                                       "type": {
-                                        "value": "SetObjectVariableAsBoolean"
+                                        "value": "SetSceneVariableAsBoolean"
                                       },
                                       "parameters": [
-                                        "Boss",
-                                        "SlimeBallDebouncing",
+                                        "LickSpawnDebouncing",
                                         "True"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Create"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Lick",
+                                        "Player.X() - 56",
+                                        "100",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AddForceXY"
+                                      },
+                                      "parameters": [
+                                        "Lick",
+                                        "0",
+                                        "450",
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ChangePlan"
+                                      },
+                                      "parameters": [
+                                        "Lick",
+                                        "=",
+                                        "3"
                                       ]
                                     }
                                   ]
@@ -15634,26 +16935,50 @@
                                 },
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "CollisionNP"
+                                      },
+                                      "parameters": [
+                                        "Lick",
+                                        "Colision",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    }
+                                  ],
                                   "actions": [
                                     {
                                       "type": {
-                                        "value": "ModVarScene"
+                                        "value": "Delete"
                                       },
                                       "parameters": [
-                                        "WaveNumber",
-                                        "=",
-                                        "RandomInRange(1, 3)"
+                                        "Lick",
+                                        ""
                                       ]
                                     },
                                     {
                                       "type": {
-                                        "value": "SetObjectVariableAsBoolean"
+                                        "value": "ModVarObjet"
                                       },
                                       "parameters": [
-                                        "Boss",
-                                        "SlimeBallDebouncing",
-                                        "False"
+                                        "MobCounter",
+                                        "MobCounter",
+                                        "=",
+                                        "MobCounter.Variable(MobCounter) - 1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                                      },
+                                      "parameters": [
+                                        "MobCounter",
+                                        "Text",
+                                        "=",
+                                        "ToString(MobCounter.Variable(MobCounter))"
                                       ]
                                     }
                                   ]
@@ -15671,786 +16996,7 @@
                               "type": "BuiltinCommonInstructions::Group",
                               "events": [
                                 {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "BuiltinCommonInstructions::Or"
-                                      },
-                                      "parameters": [],
-                                      "subInstructions": [
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "0.5"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "1"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "7"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "8"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "9"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "10"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "10.5"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "11"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "13"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "14"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "15"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "16"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "17"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "18"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "18.5"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "19"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "19.5"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "20"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "20.5"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "21"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "22.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "23"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "23.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "24"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "24.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "25.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "26"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "26.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "27"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "27.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "28"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "28.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "29"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "29.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "30"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "30.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "31"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "31.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "32"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "BuiltinCommonInstructions::And"
-                                          },
-                                          "parameters": [],
-                                          "subInstructions": [
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                ">=",
-                                                "32.25"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "CompareObjectTimer"
-                                              },
-                                              "parameters": [
-                                                "Music",
-                                                "\"MusicTimer\"",
-                                                "<",
-                                                "33"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "BuiltinCommonInstructions::Once"
-                                              },
-                                              "parameters": []
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "SetSceneVariableAsBoolean"
-                                      },
-                                      "parameters": [
-                                        "KitchSpawnDebouncing",
-                                        "False"
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -16670,6 +17216,7 @@
                                   ]
                                 },
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -16924,6 +17471,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "EnemiesBehavior",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -17175,47 +17723,10 @@
                               "colorG": 176,
                               "colorR": 74,
                               "creationTime": 0,
-                              "folded": true,
-                              "name": "BabySlime",
+                              "name": "Sliding Enemy",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
                               "events": [
-                                {
-                                  "type": "BuiltinCommonInstructions::Comment",
-                                  "color": {
-                                    "b": 109,
-                                    "g": 230,
-                                    "r": 255,
-                                    "textB": 0,
-                                    "textG": 0,
-                                    "textR": 0
-                                  },
-                                  "comment": "Changes the boss energy bar."
-                                },
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "BuiltinCommonInstructions::Once"
-                                      },
-                                      "parameters": []
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
-                                      },
-                                      "parameters": [
-                                        "EnergyBar",
-                                        "Resizable",
-                                        "=",
-                                        "clamp(EnergyBar.Health::Health()/ EnergyBar.Health::MaxHealth()  * EnergyBar.Health::MaxHealth(), 0, EnergyBar.Health::MaxHealth())"
-                                      ]
-                                    }
-                                  ]
-                                },
                                 {
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
@@ -17239,12 +17750,24 @@
                                       "subInstructions": [
                                         {
                                           "type": {
-                                            "value": "ObjectVariableAsBoolean"
+                                            "value": "Plan"
                                           },
                                           "parameters": [
                                             "Player",
-                                            "AttackDebouncing",
-                                            "False"
+                                            "<=",
+                                            "Lick.ZOrder()"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "CollisionNP"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "Lick",
+                                            "",
+                                            "",
+                                            ""
                                           ]
                                         }
                                       ]
@@ -17259,13 +17782,26 @@
                                   "actions": [
                                     {
                                       "type": {
+                                        "value": "Health::Health::Hit"
+                                      },
+                                      "parameters": [
+                                        "HealthBar",
+                                        "Health",
+                                        "Lick.Variable(Damage)",
+                                        "no",
+                                        "no",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
                                         "value": "ResizableCapability::ResizableBehavior::SetWidth"
                                       },
                                       "parameters": [
                                         "HealthBar",
                                         "Resizable",
                                         "=",
-                                        "clamp(HealthBar.Health::Health() / HealthBar.Health::MaxHealth()  * HealthBar.Health::MaxHealth(), 0, HealthBar.Health::MaxHealth())"
+                                        "clamp(HealthBar.Health::Health()/ HealthBar.Health::MaxHealth()  * HealthBar.Health::MaxHealth(), 0, HealthBar.Health::MaxHealth())"
                                       ]
                                     },
                                     {
@@ -17276,7 +17812,7 @@
                                         "Player",
                                         "Animation",
                                         "=",
-                                        "\"Hited\""
+                                        "\"Hurted\""
                                       ]
                                     },
                                     {
@@ -17284,7 +17820,7 @@
                                         "value": "Wait"
                                       },
                                       "parameters": [
-                                        "0.5"
+                                        "1"
                                       ]
                                     },
                                     {
@@ -17295,7 +17831,7 @@
                                         "Player",
                                         "Animation",
                                         "=",
-                                        "\"Default\""
+                                        "\"Idle\""
                                       ]
                                     }
                                   ]
@@ -17311,6 +17847,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "MobCounter Handler",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -18300,7 +18837,78 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "folded": true,
+                          "name": "WIP",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "MobCounter",
+                                    "MobCounter",
+                                    "=",
+                                    "19"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                                  },
+                                  "parameters": [
+                                    "Transition",
+                                    "FlashTransitionPainter",
+                                    "\"0;0;0\"",
+                                    "1",
+                                    "\"Flash\"",
+                                    "\"Both\"",
+                                    "",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+                                  },
+                                  "parameters": [
+                                    "Transition",
+                                    "FlashTransitionPainter",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Scene"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"WIP\"",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
                           "name": "Win/Lose Conditions",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -18315,7 +18923,7 @@
                                   "parameters": [
                                     "HealthBar",
                                     "Health",
-                                    "=",
+                                    "<=",
                                     "0",
                                     ""
                                   ]
@@ -18350,17 +18958,6 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "Health::Health::SetHealth"
-                                  },
-                                  "parameters": [
-                                    "EnergyBar",
-                                    "Health",
-                                    "EnergyBar.Health::MaxHealth()",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
                                     "value": "Scene"
                                   },
                                   "parameters": [
@@ -18372,6 +18969,7 @@
                               ]
                             },
                             {
+                              "disabled": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -18623,6 +19221,10 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter"
+        },
+        {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
         },
@@ -18853,7 +19455,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\GameOverFrame.jpeg",
+                      "image": "assets\\Props\\GameOverFrame\\GameOverFrame.jpeg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18873,16 +19475,16 @@
                             "y": 0
                           },
                           {
-                            "x": 318,
+                            "x": 1280,
                             "y": 0
                           },
                           {
-                            "x": 318,
-                            "y": 159
+                            "x": 1280,
+                            "y": 720
                           },
                           {
                             "x": 0,
-                            "y": 159
+                            "y": 720
                           }
                         ]
                       ]
@@ -18925,7 +19527,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\BackToMenu.png",
+                      "image": "assets\\Props\\GUI\\Input\\OtherButtons\\TryAgain.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -19051,7 +19653,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Menu\"",
+                    "\"BossFight\"",
                     ""
                   ]
                 }
@@ -20284,6 +20886,325 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "WIP",
+      "name": "WIP",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "WIP",
+          "persistentUuid": "797444a0-8ec8-4b50-aef0-e0be90517cb3",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlayAgain",
+          "persistentUuid": "f356886b-146f-44ca-ac92-930d47ef3877",
+          "width": 0,
+          "x": 434,
+          "y": 348,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PlayAgain",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\GUI\\Input\\OtherButtons\\TryAgain.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 431,
+                            "y": 0
+                          },
+                          {
+                            "x": 431,
+                            "y": 71
+                          },
+                          {
+                            "x": 0,
+                            "y": 71
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "WIP",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\WipFrame\\WorkInProgress.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 612,
+                            "y": 0
+                          },
+                          {
+                            "x": 612,
+                            "y": 459
+                          },
+                          {
+                            "x": 0,
+                            "y": 459
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "PlayAgain"
+          },
+          {
+            "objectName": "WIP"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "PlayAgain",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"BossFight\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
