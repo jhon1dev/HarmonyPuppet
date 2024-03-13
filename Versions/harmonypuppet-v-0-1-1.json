@@ -4362,6 +4362,105 @@
         "name": "assets\\Props\\MenuBackgroundImage\\farBirds25.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/MenuBackgroundImage/movingBirds26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\MenuBackgroundImage\\movingBirds26.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -20617,6 +20716,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -20635,6 +20738,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -21053,6 +21160,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -21136,7 +21247,7 @@
           "name": "gameTitle",
           "persistentUuid": "e326e468-1c28-4e15-bb32-72cc754e4531",
           "width": 0,
-          "x": 294,
+          "x": 239,
           "y": 32,
           "zOrder": 10,
           "numberProperties": [],
@@ -21176,14 +21287,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 172,
           "layer": "",
           "name": "FarBirds",
           "persistentUuid": "f5ff3d66-a6a6-449b-9ccc-a30822a5be23",
-          "width": 0,
-          "x": 0,
-          "y": 3,
+          "width": 1280,
+          "x": 3,
+          "y": 19,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -21193,13 +21305,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 420,
+          "height": 528,
           "layer": "",
           "name": "Birds",
-          "persistentUuid": "29f79962-d4df-41c1-8364-6bc0a5ac6bc2",
-          "width": 763,
-          "x": 261,
-          "y": 103,
+          "persistentUuid": "67b35bed-d3c9-4f44-b011-140510d8128a",
+          "width": 960,
+          "x": 385,
+          "y": 146,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -22492,7 +22604,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.4,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -23033,48 +23145,10 @@
                           }
                         ]
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "FarBirds",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "Glow",
-              "name": "Effect",
-              "doubleParameters": {
-                "distance": 1,
-                "innerStrength": 1,
-                "outerStrength": 2
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.6,
-                  "sprites": [
+                    },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds1.png",
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds16.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23104,6 +23178,440 @@
                           {
                             "x": 157,
                             "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds17.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds18.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds19.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds20.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds23.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds24.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds25.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\movingBirds26.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 157,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 75
+                          },
+                          {
+                            "x": 1096,
+                            "y": 331
+                          },
+                          {
+                            "x": 157,
+                            "y": 331
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FarBirds",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 1,
+                "innerStrength": 1,
+                "outerStrength": 1
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.45,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1095,
+                            "y": 65
+                          },
+                          {
+                            "x": 1280,
+                            "y": 65
+                          },
+                          {
+                            "x": 1280,
+                            "y": 142
+                          },
+                          {
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23126,20 +23634,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23162,20 +23670,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23198,20 +23706,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23234,20 +23742,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23270,20 +23778,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23306,20 +23814,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23342,20 +23850,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23378,20 +23886,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23414,20 +23922,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23450,20 +23958,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23486,20 +23994,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23522,20 +24030,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23558,20 +24066,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23594,20 +24102,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -23630,344 +24138,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 157,
-                            "y": 75
+                            "x": 1095,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 75
+                            "x": 1280,
+                            "y": 65
                           },
                           {
-                            "x": 1096,
-                            "y": 331
+                            "x": 1280,
+                            "y": 142
                           },
                           {
-                            "x": 157,
-                            "y": 331
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds17.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 157,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 331
-                          },
-                          {
-                            "x": 157,
-                            "y": 331
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds18.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 157,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 331
-                          },
-                          {
-                            "x": 157,
-                            "y": 331
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds19.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 157,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 331
-                          },
-                          {
-                            "x": 157,
-                            "y": 331
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds20.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 157,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 331
-                          },
-                          {
-                            "x": 157,
-                            "y": 331
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds21.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 157,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 331
-                          },
-                          {
-                            "x": 157,
-                            "y": 331
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds22.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 157,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 331
-                          },
-                          {
-                            "x": 157,
-                            "y": 331
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds23.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 157,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 331
-                          },
-                          {
-                            "x": 157,
-                            "y": 331
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds24.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 157,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 331
-                          },
-                          {
-                            "x": 157,
-                            "y": 331
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\MenuBackgroundImage\\farBirds25.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 157,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 75
-                          },
-                          {
-                            "x": 1096,
-                            "y": 331
-                          },
-                          {
-                            "x": 157,
-                            "y": 331
+                            "x": 1095,
+                            "y": 142
                           }
                         ]
                       ]
@@ -24178,6 +24362,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -28713,6 +28901,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
