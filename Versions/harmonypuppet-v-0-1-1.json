@@ -4623,6 +4623,24 @@
         "name": "assets\\Props\\Flag\\Flag5.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/GUI/Output/Timer/NewSprite16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\GUI\\Output\\Timer\\NewSprite16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/GUI/Output/Text/PressAnyKey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\GUI\\Output\\Text\\PressAnyKey.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5234,7 +5252,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.591935802925028,
+        "zoomFactor": 0.410999198919595,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5416,21 +5434,6 @@
           "x": 4,
           "y": 890,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Camera",
-          "persistentUuid": "8b3ba966-ba0e-4541-8670-6b81d0a8a567",
-          "width": 0,
-          "x": 645,
-          "y": 451,
-          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7377,67 +7380,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Divider",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Default",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Divider\\Divider.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 4,
-                            "y": 0
-                          },
-                          {
-                            "x": 4,
-                            "y": 720
-                          },
-                          {
-                            "x": 0,
-                            "y": 720
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "1ffde4a339f7242c3b11d81eee44b4aca56070dd84009ff26bbacf1e55167d04",
           "name": "LeftArrowRoundButton2",
           "type": "Sprite",
@@ -8392,8 +8334,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "NewSprite3",
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\ColisionMask\\Colision.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8406,7 +8348,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -14314,7 +14275,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Text\\PressAnyKey.png",
+                      "image": "assets\\Props\\GUI\\Output\\Text\\PressAnyKey.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14330,20 +14291,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 101,
+                            "y": 26
                           },
                           {
-                            "x": 957,
-                            "y": 0
+                            "x": 842,
+                            "y": 26
                           },
                           {
-                            "x": 957,
-                            "y": 49
+                            "x": 842,
+                            "y": 114
                           },
                           {
-                            "x": 0,
-                            "y": 49
+                            "x": 101,
+                            "y": 114
                           }
                         ]
                       ]
@@ -14500,7 +14461,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite8",
+                      "image": "assets\\Props\\ColisionMask\\Colision.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14595,7 +14556,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite16",
+                      "image": "assets\\Props\\GUI\\Output\\Timer\\NewSprite16.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14869,9 +14830,6 @@
           },
           {
             "objectName": "BatteryMusician"
-          },
-          {
-            "objectName": "Divider"
           },
           {
             "objectName": "Floor"
