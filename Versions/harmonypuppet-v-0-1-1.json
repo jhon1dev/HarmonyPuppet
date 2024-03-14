@@ -4461,6 +4461,168 @@
         "name": "assets\\Props\\MenuBackgroundImage\\movingBirds26.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/GUI/Input/OtherButtons/NewSprite21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\GUI\\Input\\OtherButtons\\NewSprite21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/GUI/Output/Text/gametitle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\GUI\\Output\\Text\\gametitle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Player/Transport/MovingWithoutCarpet/PlayerInMapMovement10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Player\\Transport\\MovingWithoutCarpet\\PlayerInMapMovement10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/GUI/Input/OtherButtons/Start button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\GUI\\Input\\OtherButtons\\Start button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Flag/Flag1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Flag\\Flag1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Flag/Flag2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Flag\\Flag2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Flag/Flag3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Flag\\Flag3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Flag/Flag4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Flag\\Flag4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Props/Flag/Flag5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Props\\Flag\\Flag5.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4979,7 +5141,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite21",
+                  "image": "assets\\Props\\GUI\\Input\\OtherButtons\\NewSprite21.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -21187,7 +21349,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875000000001,
+        "zoomFactor": 0.6897782140104506,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22357,7 +22519,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Props\\Text\\gametitle.png",
+                      "image": "assets\\Props\\GUI\\Output\\Text\\gametitle.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27508,15 +27670,15 @@
       ]
     },
     {
-      "b": 88,
+      "b": 79,
       "disableInputWhenNotFocused": true,
       "mangledName": "MainMap",
       "name": "MainMap",
-      "r": 16,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 48,
+      "v": 47,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -27527,7 +27689,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2636457673770823,
+        "zoomFactor": 0.2725359896772957,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27556,8 +27718,8 @@
           "name": "Player",
           "persistentUuid": "6fcf0968-4f45-4f02-8833-a05f6ac172d8",
           "width": 0,
-          "x": 1336,
-          "y": 5,
+          "x": 1283,
+          "y": 90,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -27632,26 +27794,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "PhaseColision",
-          "persistentUuid": "01fa3ab3-b3c9-4857-aaf7-42c83c1485b0",
-          "width": 0,
-          "x": 1256,
-          "y": -27,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "PhaseBillBoard",
           "persistentUuid": "7c376565-3175-4e64-85dc-8974f5332c99",
           "width": 0,
-          "x": 1224,
-          "y": -59,
+          "x": 1239,
+          "y": -79,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -27665,8 +27812,8 @@
           "name": "Title",
           "persistentUuid": "d22e736a-7939-4916-b27b-3e43ac983c2a",
           "width": 0,
-          "x": 1252,
-          "y": -58,
+          "x": 1274,
+          "y": -75,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -27680,9 +27827,25 @@
           "name": "Difficulty",
           "persistentUuid": "39e74bd7-aa2f-4548-8660-2aa102445e9b",
           "width": 0,
-          "x": 1234,
-          "y": -28,
+          "x": 1257,
+          "y": -50,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 22,
+          "layer": "",
+          "name": "PlayButton",
+          "persistentUuid": "9a4cea6c-7c2f-43f8-8644-5e0ac40f0cf9",
+          "width": 49,
+          "x": 1279,
+          "y": -30,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27692,12 +27855,44 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "PlayButton",
-          "persistentUuid": "9a4cea6c-7c2f-43f8-8644-5e0ac40f0cf9",
+          "name": "Flag",
+          "persistentUuid": "dcfb730a-5c85-420f-adb1-2b2c8fefbe67",
           "width": 0,
-          "x": 1260,
-          "y": -7,
-          "zOrder": 11,
+          "x": 1282,
+          "y": -13,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "",
+          "name": "Colision",
+          "persistentUuid": "24f67c74-41bd-464f-b775-3a2dd3390c1e",
+          "width": 64,
+          "x": 1193,
+          "y": 23,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "",
+          "name": "Colision",
+          "persistentUuid": "501b412c-bb30-4b8c-9296-6d8d428aef9c",
+          "width": 64,
+          "x": 1347,
+          "y": 25,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27767,6 +27962,7 @@
             },
             {
               "name": "TopDownMovement",
+              "rotateObject": true,
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
@@ -27777,13 +27973,12 @@
               "ignoreDefaultControls": false,
               "maxSpeed": 200,
               "movementAngleOffset": 0,
-              "rotateObject": true,
               "viewpoint": "TopDown"
             }
           ],
           "animations": [
             {
-              "name": "Default",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -27895,7 +28090,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "PhaseColision",
+          "name": "Flag",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -27913,7 +28108,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite10",
+                      "image": "assets\\Props\\Flag\\Flag1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -27933,16 +28128,160 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 43,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 43,
+                            "y": 38
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 38
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Flag\\Flag2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 38
+                          },
+                          {
+                            "x": 0,
+                            "y": 38
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Flag\\Flag3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 38
+                          },
+                          {
+                            "x": 0,
+                            "y": 38
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Flag\\Flag4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 38
+                          },
+                          {
+                            "x": 0,
+                            "y": 38
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Props\\Flag\\Flag5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 0
+                          },
+                          {
+                            "x": 43,
+                            "y": 38
+                          },
+                          {
+                            "x": 0,
+                            "y": 38
                           }
                         ]
                       ]
@@ -28127,7 +28466,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite14",
+                      "image": "assets\\Props\\GUI\\Input\\OtherButtons\\Start button.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -28147,16 +28486,16 @@
                             "y": 0
                           },
                           {
-                            "x": 54,
+                            "x": 108,
                             "y": 0
                           },
                           {
-                            "x": 54,
-                            "y": 24
+                            "x": 108,
+                            "y": 48
                           },
                           {
                             "x": 0,
-                            "y": 24
+                            "y": 48
                           }
                         ]
                       ]
@@ -28175,7 +28514,7 @@
             "objectName": "Player"
           },
           {
-            "objectName": "PhaseColision"
+            "objectName": "Flag"
           },
           {
             "objectName": "PhaseBillBoard"
@@ -28292,7 +28631,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "PhaseColision",
+                    "Flag",
                     "",
                     "",
                     ""
@@ -28348,7 +28687,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "PhaseColision",
+                    "Flag",
                     "",
                     "",
                     ""
@@ -28448,14 +28787,6 @@
                   },
                   "parameters": [
                     "Colision"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "PhaseColision"
                   ]
                 },
                 {
