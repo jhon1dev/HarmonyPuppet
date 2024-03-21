@@ -4641,6 +4641,66 @@
         "name": "assets\\Props\\GUI\\Output\\Text\\PressAnyKey.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "audios/trovao.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audios\\trovao.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audios/hit.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audios\\hit.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Áudio do WhatsApp de 2024-02-23 à(s) 22.29.58_bb85c696.mp4.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0.33,\\\"sustain\\\":1,\\\"sustainPunch\\\":0,\\\"decay\\\":3.77,\\\"tremoloDepth\\\":90,\\\"tremoloFrequency\\\":894,\\\"frequency\\\":6000,\\\"frequencySweep\\\":1300,\\\"frequencyDeltaSweep\\\":-2600,\\\"repeatFrequency\\\":71.3,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"square\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":60,\\\"vibratoFrequency\\\":425,\\\"squareDuty\\\":25,\\\"squareDutySweep\\\":45,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":8,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":100,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":5600,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Áudio do WhatsApp de 2024-02-23 à(s) 22.29.58_bb85c696.mp3\"}}",
+        "name": "Áudio do WhatsApp de 2024-02-23 à(s) 22.29.58_bb85c696.mp4",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":0,\\\"decay\\\":0.06,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":283.76040816508174,\\\"frequencySweep\\\":-19.580081747696784,\\\"frequencyDeltaSweep\\\":106.12054756773661,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":40,\\\"frequencyJump1Amount\\\":25,\\\"frequencyJump2Onset\\\":80,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"square\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":8.179644459306713,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":90,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"},\"localFilePath\":\"assets/New sound effect.wav\"}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audios/buttonclick.mp3",
+        "kind": "audio",
+        "metadata": "{\"localFilePath\":\"audios/buttonclick.mp3\",\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":0,\\\"decay\\\":0.06,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":314.2380069453671,\\\"frequencySweep\\\":-3.536527498836173,\\\"frequencyDeltaSweep\\\":106.12054756773661,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":40,\\\"frequencyJump1Amount\\\":25,\\\"frequencyJump2Onset\\\":80,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"square\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":8.179644459306713,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":90,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"audios\\\\buttonclick.mp3\"}}",
+        "name": "audios\\buttonclick.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "audios/menu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audios\\menu.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -16689,7 +16749,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PlayerController",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -17743,6 +17802,18 @@
                           "actions": [
                             {
                               "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audios\\hit.mp3",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "Health::Health::Hit"
                               },
                               "parameters": [
@@ -17864,6 +17935,18 @@
                           "actions": [
                             {
                               "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audios\\hit.mp3",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "Health::Health::Hit"
                               },
                               "parameters": [
@@ -17983,6 +18066,18 @@
                             }
                           ],
                           "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "audios\\hit.mp3",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
                             {
                               "type": {
                                 "value": "Health::Health::Hit"
@@ -21157,6 +21252,34 @@
                   "parameters": [
                     "",
                     "\"BossFight\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "audios\\trovao.mp3",
+                    "0",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -24342,6 +24465,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "audios\\buttonclick.mp3",
+                    "0",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
@@ -24367,6 +24503,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "audios\\buttonclick.mp3",
+                    "0",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -24396,9 +24545,55 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "audios\\buttonclick.mp3",
+                    "0",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Quit"
                   },
                   "parameters": [
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "audios\\menu.mp3",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -27527,9 +27722,28 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "audios\\buttonclick.mp3",
+                    "0",
+                    "",
+                    "",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -27647,7 +27861,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2725359896772957,
+        "zoomFactor": 0.6455105703311548,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27920,8 +28134,8 @@
             },
             {
               "name": "TopDownMovement",
-              "rotateObject": true,
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "rotateObject": true,
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -28777,6 +28991,39 @@
                   },
                   "parameters": [
                     "Difficulty"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "audios\\menu.mp3",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ]
